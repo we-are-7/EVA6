@@ -1,4 +1,4 @@
-# TheSchoolOfAI-EVA5-Assignments
+# TheSchoolOfAI-EVA6-Assignments
 Repo for school of AI assignments
 
 Group Members:
