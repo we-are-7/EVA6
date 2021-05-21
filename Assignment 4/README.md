@@ -2,10 +2,10 @@
 
 ![network.png] (images/network.png?raw=true)
 
-**1. Data Representation
+**1. Data Representation<br/>
 ==================== 
-**2. Data Generation Strategy
+**2. Data Generation Strategy<br/>
 ====================
-**3. Evaluating Results
+**3. Evaluating Results<br/>
 ==================== 
 
