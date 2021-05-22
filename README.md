@@ -2,7 +2,7 @@
 Repo for school of AI assignments
 
 Group Members:
-1) Sharavan
+1) Shravan
 2) Vijai Simha
 3) Sumsum
 4) Naveen Gampala
