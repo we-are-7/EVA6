@@ -1,6 +1,6 @@
 ## Final destination
 
-![network] (https://github.com/we-are-7/EVA6/blob/main/Assignment%204/Images/network.png)
+![Problem_Statement](https://github.com/we-are-7/EVA6/blob/main/Assignment%204/Images/network.png)
 
 ## 1. Data Representation
 	a. MINIST data
