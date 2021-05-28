@@ -12,4 +12,5 @@ A large neural networks can potentially have extremely complex structures, certa
 Neural networks are trained on weights and biases. During training, the neural network learning algorithm fits various models to the training data and selects the best model for prediction. The learning algorithm is trained with a fixed set of hyperparameters - the network structure (number of layers, number of neurons in the input, hidden and output layers etc.). It is trained on the weights and the biases, which are the parameters of the network.
  
 ## Feed forward propagation-A simple neural network
-![Network](images/network.png)
+
+![Exmaple](images/network.png)
