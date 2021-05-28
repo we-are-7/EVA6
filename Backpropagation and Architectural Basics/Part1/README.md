@@ -33,7 +33,7 @@ In artificial neural networks, the output from one layer is used as input to the
 ## Calculation of output (h1) of each neuron happens Feed forward mechanism
 Feed forward algorithm for a neural network with L hidden layer: 
 
-	h^0  = x (0th  layer is data/image)
+	h<sub>0</sub>  = x (0th  layer is data/image)
 	for l in range (0, L)
   	  hl = activation (W^l . h ^l-1)
 	  P^i = normalize(e^(W0. hL) )
