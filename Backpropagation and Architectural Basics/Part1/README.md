@@ -9,13 +9,16 @@ It is a simple neural network with one hidden layer with 2 neurons (h1, h2). The
 
 ## Feed forward propagation
 
-![Exmaple](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/network0.png)
+![Exmaple](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/FFD.png)
 
 The data was given (0.99 and 0.01) to neurons which has multiplied with weights (W1 –W4) of neuron (initial weight = 0.3, 0.4, -0.2, 0.7) of first layer and output has been activated using sigmoid function. The output of that activated results will multiply with weights of next layers (output neurons; W5 to W8). The final activation on that output will compared with actual output and loss will be calculated as explained previously. 
 
 ## Backward propagation 
 
 The backward propagation means basically updating weights according to the error calculated (actual value – predicted value). The weights will be updated according to error by partial differentiation and chain of rule.  Each step explained in Figure 7. 
+
+![Exmaple](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/network2.png)
+
 
 ## Learning rate experiment
 
