@@ -13,4 +13,4 @@ Neural networks are trained on weights and biases. During training, the neural n
  
 ## Feed forward propagation-A simple neural network
 
-![Exmaple](images/network.png)
+![Exmaple](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/network.png)
