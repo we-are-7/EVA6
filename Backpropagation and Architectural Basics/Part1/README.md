@@ -92,7 +92,7 @@ The loss used for a multiclass classification is the Cross-Entropy loss which ca
 
 The chain rule provides us a technique for finding the derivative of composite functions, with the number of functions that make up the composition determining how many differentiation steps are necessary. For example, if a composite function f( x) is defined as
 
-![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation6.png)
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation_6.png)
 
 ## Impact of learning rate
 
