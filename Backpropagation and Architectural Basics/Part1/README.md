@@ -14,3 +14,31 @@ Neural networks are trained on weights and biases. During training, the neural n
 ## Feed forward propagation-A simple neural network
 
 ![Exmaple](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/network.png)
+
+In artificial neural networks, the output from one layer is used as input to the next layer. Such networks are called feedforward neural networks. This means there are no loops in the network - information is always fed forward, never fed back.
+
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/matrix_notation.png)
+
+- W is for weight matrix
+- x stands for input
+- y is the ground truth label
+- p is the probability vector of the predicted output
+- h is the output of the hidden layers (inner layer) after activation
+- superscript stands for layer number
+- subscript stands for the index of the individual neuron
+
+
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/matrix_notation2.png)
+
+## Calculation of output (h1) of each neuron happens Feed forward mechanism
+Feed forward algorithm for a neural network with L hidden layer: 
+
+	h^0  = x (0th  layer is data/image)
+	for l in range (0, L)
+  	  hl = activation (W^l . h ^l-1)
+	  P^i = normalize(e^(W0. hL) )
+
+The above algorithm performs feed forward for a single data point through the neural network
+So feed forward is summarized as 
+
+
