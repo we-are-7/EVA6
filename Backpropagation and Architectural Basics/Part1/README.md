@@ -71,7 +71,7 @@ Feed forward algorithm for a neural network with L hidden layer:
 The above algorithm performs feed forward for a single data point through the neural network
 So feed forward is summarized as 
 
-![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation3.JPG)
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation3.png)
 Activation function: can be sigmoid, ReLu, Leaky ReLu
 
 ## Backward propagation in Neural Network  
@@ -81,18 +81,18 @@ Activation function: can be sigmoid, ReLu, Leaky ReLu
 - Total Loss = L = L1+ L1+ .... (sum of the loses of individual data points ) L1= loss of first data point 
 - The loss function is defined as follows:
 
-![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation4.JPG)
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation4.png)
 
 The loss function is defined in terms of the network output F(xi) and the ground truth yi. Since F(xi) depends on the weights and biases, the loss, in turn, is a function of (w, b). The average loss across all data points is denoted by G(w, b) which we want to minimize.
 The loss used for a multiclass classification is the Cross-Entropy loss which can written as follows: 
 
-![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation5.JPG)
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation5.png)
 
 ## Chain rule of differentiation 
 
 The chain rule provides us a technique for finding the derivative of composite functions, with the number of functions that make up the composition determining how many differentiation steps are necessary. For example, if a composite function f( x) is defined as
 
-![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation6.JPG)
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation6.png)
 
 ## Impact of learning rate
 
@@ -107,6 +107,6 @@ Weights are updated as below formula (a =Learning rate)
 
 ## Concept of Back propagation
 
-![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation7.JPG)
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation7.png)
 
 Concept of Back propagation is weights are updated in Back propagation. Gradients are calculated in a backward direction starting from dz3. Hence, we'll calculate the gradients in the following sequence. z= input to neuron after multiplying with weights, h = Output after activation, p =probability, w= weights
