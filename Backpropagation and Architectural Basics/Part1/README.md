@@ -33,12 +33,37 @@ In artificial neural networks, the output from one layer is used as input to the
 ## Calculation of output (h1) of each neuron happens Feed forward mechanism
 Feed forward algorithm for a neural network with L hidden layer: 
 
-	h<sub>0</sub>  = x (0th  layer is data/image)
+	 	
+	h0  = x (0th  layer is data/image)
 	for l in range (0, L)
   	  hl = activation (W^l . h ^l-1)
 	  P^i = normalize(e^(W0. hL) )
 
 The above algorithm performs feed forward for a single data point through the neural network
 So feed forward is summarized as 
+
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation3.JPG)
+Activation function: can be sigmoid, ReLu, Leaky ReLu
+
+## Backward propagation in Neural Network  
+
+- Training task is to compute the optimal weights by minimizing some cost function.
+-  The desired output (output from the last layer) minus the actual output is the cost (or the loss), and we to tune the parameters weights that total cost is minimized.
+- Total Loss = L = L1+ L1+ .... (sum of the loses of individual data points ) L1= loss of first data point 
+- The loss function is defined as follows:
+
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation4.JPG)
+
+The loss function is defined in terms of the network output F(xi) and the ground truth yi. Since F(xi) depends on the weights and biases, the loss, in turn, is a function of (w, b). The average loss across all data points is denoted by G(w, b) which we want to minimize.
+The loss used for a multiclass classification is the Cross-Entropy loss which can written as follows: 
+
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation5.JPG)
+
+## Chain rule of differentiation 
+
+The chain rule provides us a technique for finding the derivative of composite functions, with the number of functions that make up the composition determining how many differentiation steps are necessary. For example, if a composite function f( x) is defined as
+
+
+
 
 
