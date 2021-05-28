@@ -27,6 +27,13 @@ The experiment is performed with different learning late. The results showed tha
 ![Exmaple](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/Graph.png)
 
 
+
+# Group Members:
+1) Shravan
+2) Vijai Simha
+3) Sumsum
+4) Naveen Gampala
+
 # Neural Network Concepts
 An artificial neural network is a network of neurons. Neurons in a neural network are arranged in layers. The first and the last layer are called the input and output layers. Input layers have as many neurons as the number of attributes in the data set and the output layer has as many neurons as the number of classes of the target variable (for a classification problem). For a regression problem, the number of neurons in the output layer would be 1 (a numeric variable).
 A large neural networks can potentially have extremely complex structures, certain assumptions are made to simplify the way information flows in them:
