@@ -17,7 +17,7 @@ Neural networks are trained on weights and biases. During training, the neural n
 
 In artificial neural networks, the output from one layer is used as input to the next layer. Such networks are called feedforward neural networks. This means there are no loops in the network - information is always fed forward, never fed back.
 
-![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/matrix_notation.png)
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/matrix_notation.JPG)
 
 - W is for weight matrix
 - x stands for input
@@ -28,7 +28,7 @@ In artificial neural networks, the output from one layer is used as input to the
 - subscript stands for the index of the individual neuron
 
 
-![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/matrix_notation2.png)
+![Notation1](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part1/Images/math_notation2.JPG)
 
 ## Calculation of output (h1) of each neuron happens Feed forward mechanism
 Feed forward algorithm for a neural network with L hidden layer: 
