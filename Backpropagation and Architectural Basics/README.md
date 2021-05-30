@@ -7,5 +7,6 @@
 # Part 1
 Backpropogation
 
-#Part 2
+# Part 2
+Architectural Basics
 MNIST classification in less than 20K parameters
