@@ -2,17 +2,30 @@
 
 Modified the code given in [MNIST Base Code](https://colab.research.google.com/drive/1uJZvJdi5VprOQHROtJIHy0mnY2afjNlx)
 
-  
+
+# Modifications to base model
+    1) Used nn.sequentual to group convolution and transition blocks
+    2) Dropout is added at the end of convolution block
+    3) 1x1 convoluttion is used to reduce the channes in transition block
+    4) Global average pooling is used 
+    5) Learning rate 0.01 initially and after 10th epoch reduced to 0.001
+    6) Fully connected layer is used to convert from 2d to 1d before softmax
+    7) In Transition layer using AvgPooling is giving better results than MaxPooling
+
 
 # Final Model
 [Notebook Link](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part2/EVA6_Session_4_Part_2.ipynb) <br>
+
+# Training
+Model is stuck in local minima as training accuray is between 99.18 and 99.22 between 10 and 19 epochs 
+Further training with lower learning rate may increase accuracy
 
 # Validation Accuracy 
     1) Max Accuracy 99.46% in 18th epoch
     2) Accuracy is 99.4x% consistantly from 10 to 19th epoch
 
 # Evaluation
-[Evaluation](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part2/Images/accuracy_loss.png)<br>
+![Evaluation](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part2/Images/accuracy_loss.png)<br>
 
 
 # Model Graph
