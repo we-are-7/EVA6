@@ -12,7 +12,7 @@ Modified the code given in [MNIST Base Code](https://colab.research.google.com/d
     2) Accuracy is 99.4x% consistantly from 10 to 19th epoch
 
 # Evaluation
-[Evaluation](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part2/Images/accuracy_loss.png)<br>
+![Evaluation](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part2/Images/accuracy_loss.png)<br>
 
 
 # Model Graph
