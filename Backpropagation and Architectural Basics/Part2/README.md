@@ -2,13 +2,17 @@
 
 Modified the code given in [MNIST Base Code](https://colab.research.google.com/drive/1uJZvJdi5VprOQHROtJIHy0mnY2afjNlx)
 
-# Validation Accuracy 
-    1) Max Accuracy 99.46% in 18th epoch
-    2) Accuracy is 99.4x% consistantly from 10 to 19th epoch
   
 
 # Final Model
 [Notebook Link](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part2/EVA6_Session_4_Part_2.ipynb) <br>
+
+# Validation Accuracy 
+    1) Max Accuracy 99.46% in 18th epoch
+    2) Accuracy is 99.4x% consistantly from 10 to 19th epoch
+
+# Evaluation
+[Evaluation](https://github.com/we-are-7/EVA6/blob/main/Backpropagation%20and%20Architectural%20Basics/Part2/Images/accuracy_loss.png)<br>
 
 
 # Model Graph
