@@ -1,8 +1,12 @@
-# Architectural Basics
+# Group Members:
+1) Shravan A
+2) Vijai Simha
+3) Sumsum Sunny
+4) Naveen Gampala
 
-Modified the code given in [MNIST Base Code](https://colab.research.google.com/drive/1uJZvJdi5VprOQHROtJIHy0mnY2afjNlx) to achieve 99.4% validation accuracy with less than 20k Parameters and in less than 20 Epochs.
+# Part 1
+Backpropogation
 
-Below important concepts were used/considered while designing the network:
-- Convolution Block 
-- Receptive Field
-- Kernels
+# Part 2
+Architectural Basics
+MNIST classification in less than 20K parameters
